@@ -1,6 +1,3 @@
-export defautl signUpUser() {
-  return Promise.resolve({
-    firstName: value,
-    lastName: value,
-  });
+export default function signUpUser(firstName, lastName) {
+  return Promise.resolve({ firstName, lastName });
 }
